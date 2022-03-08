@@ -1,0 +1,144 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 38, 39);
+    color: white;
+    padding: 40px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.navLogo {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.logosize {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.topimg {
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(56, 56, 223);
+    min-height: 50px;
+    min-width: 150px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.Links {
+    display: flex;
+    gap: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.Intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+}
+
+.IntroLeft {
+width: 200px;
+height: auto;
+}
+
+.IntroRight {
+}   
+
+.imgbox {
+    width: 300px;
+    height: 200px;
+    border: solid rgb(39, 39, 107);
+    border-radius: 5px;
+}
+
+h2 {
+text-align: center;
+padding: 30px;
+}
+
+.TBoxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding: 200px;
+}
+
+.quoter {
+    text-align: end;
+    align-self: flex-end;
+}
+
+.backgroundbox {
+    display: flex;
+    background-color: #1F2937;
+    padding: 60px;
+    justify-content: center;
+}
+
+.actionbox {
+    display: flex;
+    background-color: rgb(14, 14, 53);
+    color: white;
+    padding: 40px 300px;
+    gap: 50px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: rgb(37, 38, 39);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.action {
+    font-weight: bold;
+}
